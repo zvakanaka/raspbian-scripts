@@ -1,6 +1,7 @@
 #!/bin/bash
+# sendIP.sh
 # Mails IP address
-#INSTRUCTIONS: run setupGmail first
+# INSTRUCTIONS: run setupGmail first
 
 # test if to account file exists
 # then set toAccount to file contents
