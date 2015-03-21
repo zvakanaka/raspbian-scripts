@@ -21,19 +21,19 @@ case "$1" in
 # doing something
 # Mails IP address
 # INSTRUCTIONS: run setupGmail first
-
+CONFIG_DIR="/root"
 # test if to account file exists
 # then set toAccount to file contents
- if [ -f ~/.ipReceiver ]; then
-        toAccount=$(<~/.ipReceiver)
+ if [ -f $CONFIG_DIR/.ipReceiver ]; then
+        toAccount=$(<$CONFIG_DIR/.ipReceiver)
     else
        echo 'ERROR: No ".ipReceiver" file found.'
        exit 1    
 fi
 # test if from account file exists
 # then set fromAccount to file contents
-if [ -f ~/.ipSender ]; then
-    fromAccount=$(<~/.ipSender)
+if [ -f $CONFIG_DIR/.ipSender ]; then
+    fromAccount=$(<$CONFIG_DIR/.ipSender)
 else
        echo 'ERROR: No ".ipSender" file found.'
        exit 1    
