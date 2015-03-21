@@ -27,7 +27,7 @@ case "$1" in
  if [ -f ~/.ipReceiver ]; then
         toAccount=$(<~/.ipReceiver)
     else
-       echo -e 'ERROR: No ".ipReceiver" file found.'
+       echo 'ERROR: No ".ipReceiver" file found.'
        exit 1    
 fi
 # test if from account file exists
@@ -35,7 +35,7 @@ fi
 if [ -f ~/.ipSender ]; then
     fromAccount=$(<~/.ipSender)
 else
-       echo -e 'ERROR: No ".ipSender" file found.'
+       echo 'ERROR: No ".ipSender" file found.'
        exit 1    
 fi
 # grab ip address
