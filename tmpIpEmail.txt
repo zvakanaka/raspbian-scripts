@@ -1,6 +1,0 @@
-To: quintonish@gmail.com
-From: quintonish@gmail.com
-Subject: Ip Address of adam
-Your ip is 127.0.0.1 Mask:255.0.0.0 inet addr:192.168.122.1 
-This message was sent by adam from adam-Inspiron-1564
-Message sent Fri Mar 20 20:36:29 MDT 2015.
