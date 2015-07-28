@@ -10,7 +10,7 @@ dpkg -s ssmtp > /dev/null
 if [ $? -eq 1 ]
 then
    echo -e ssmtp not installed, installing...
-   sudo apt-get install ssmtp
+   sudo apt-get install ssmtp -y
    if [ $? -eq 1 ]; then
        echo -e Failed to install ssmtp, exiting...
        exit 1
