@@ -1,5 +1,7 @@
 #!/bin/bash
 #BASH SETUP GMAIL via SSMTP by adam quinton
+#Imstallation instructions:
+#wget https://raw.githubusercontent.com/zvakanaka/raspbian-scripts/master/setupGmail.sh && sudo bash setupGmail.sh; rm setupGmail.sh
 if [ $USER = "root" ]
 then
 #Sets up gmail using ssmptp
