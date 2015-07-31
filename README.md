@@ -8,6 +8,6 @@
 <h1>Usage</h1>
 <h2>pitemp</h2>
 <p>By default, <code>pitemp</code> with no parameters will display the CPU temperature of a Raspberry Pi in Fahrenheit.</p>
-<h3>Parameters</h3>
+<h3>Options</h3>
 <p>Convert F to C: </p><code>pitemp -f 100</code>
 <p>Convert C to F: </p><code>pitemp -c 32</code>
