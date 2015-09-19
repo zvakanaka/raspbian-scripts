@@ -3,6 +3,8 @@
 # Author: Adam Quinton                                                          
 
 TIMELAPSE_DIR=$HOME/timelapse
+# If no TIMELAPSE_DIR, create one
+[ -d ${TIMELAPSE_DIR} ] || mkdir -p ${TIMELAPSE_DIR}
 
 FREQ="$1"
 if [ ! "$FREQ" ]; then
