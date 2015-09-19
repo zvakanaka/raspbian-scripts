@@ -1,6 +1,8 @@
 #!/bin/bash                                                                     
 # raspi-lapse                                                                     
-# Author: Adam Quinton                                                          
+# Author: Adam Quinton           
+# Idea from: fotosyn.com:
+#     https://bitbucket.org/fotosyn/fotosynlabs/raw/9819edca892700e459b828517bba82b0984c82e4/RaspiLapseCam/raspiLapseCam.py
 MIN_DISPLAY="-p 1600,100,100,80 -op 200"
 ADJUST="-sh 40 -awb auto -mm average -v"
 
