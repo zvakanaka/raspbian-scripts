@@ -2,6 +2,8 @@
 # raspi-lapse                                                                     
 # Author: Adam Quinton                                                          
 
+grep "start_x=1" /boot/config.txt || (sed -i "s/start_x=0/start_x=1/g" /boot/config.txt && echo Camera setup now installed, you must reboot && exit 1)
+
 TIMELAPSE_DIR=$HOME/timelapse
 # If no TIMELAPSE_DIR, create one
 [ -d ${TIMELAPSE_DIR} ] || mkdir -p ${TIMELAPSE_DIR}
