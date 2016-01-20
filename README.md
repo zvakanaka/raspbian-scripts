@@ -1,4 +1,7 @@
 <h1>Install Intsructions</h1>
+<h2 id="gphoto2">Gphoto2 Setup</h2>
+<p>Open a terminal and paste:</p>
+<code>wget https://raw.githubusercontent.com/zvakanaka/raspbian-scripts/master/gphoto2-pi.sh && chmod +x gphoto2-pi.sh.sh</code>
 <h2 id="raspi-lapse">Raspi-Lapse Setup - Raspberry Pi Timelapse</h2>
 <p>Open a terminal and paste:</p>
 <code>wget https://raw.githubusercontent.com/zvakanaka/raspbian-scripts/master/raspi-lapse.sh && chmod +x raspi-lapse.sh</code>
