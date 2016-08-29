@@ -17,7 +17,7 @@ if [ -f $LIBGPHOTO2 ] ; then
    fi
    tar xvjf $LIBGPHOTO2
    cd libgphoto2*/
-   sudo apt-get install libltdl-dev libusb-dev libusb-1.0-0-dev -y
+   sudo apt-get install libltdl-dev libusb-dev libusb-1.0-0-dev make pkg-config -y
    ./configure --prefix=/usr --disable-nls
    sudo make install
    cd ..
